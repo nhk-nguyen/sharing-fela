@@ -1,17 +1,13 @@
-import './scss/main.scss';
-import './index2';
 import { createRenderer } from 'fela';
 import { render } from 'fela-dom';
-
-
-const root = document.getElementById('root');
+const root = document.getElementById('root2');
 
 const rule = () =>  ({
-  backgroundColor: 'black',
-  color: 'white',
+  backgroundColor: 'pink',
+  color: 'black',
   width: '100%',
   height: '50vh',
-  fontSize: '40px',
+  fontSize: '60px',
   textAlign: 'center',
   lineHeight: '50vh'
 })
