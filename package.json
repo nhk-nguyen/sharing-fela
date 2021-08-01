@@ -12,6 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "fela": "^11.6.1",
+    "fela-dom": "^11.6.1",
+    "fela-preset-web": "^11.6.1",
     "handlebars": "^4.7.7",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
