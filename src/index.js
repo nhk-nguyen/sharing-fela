@@ -1,8 +1,7 @@
 import './scss/main.scss';
 import './index2';
-import { createRenderer } from 'fela';
-import { render } from 'fela-dom';
 
+import renderer from './felaRenderer'
 
 const root = document.getElementById('root');
 
@@ -15,10 +14,6 @@ const rule = () =>  ({
   textAlign: 'center',
   lineHeight: '50vh'
 })
-
-const renderer = createRenderer();
-
-render(renderer);
 
 const className = renderer.renderRule(rule);
 
